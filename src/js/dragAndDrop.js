@@ -32,8 +32,6 @@ const handleDragAndDrop = () => {
       const items = Array.from(list.children); // Generates an array from all the childeren of the list (ol)
       const targetIndex = items.indexOf(e.target);
       const draggedIndex = items.indexOf(draggedItem);
-      console.log(items);
-      console.log(targetIndex);
 
       if (draggedIndex < targetIndex) {
         list.insertBefore(draggedItem, e.target.nextSibling);
