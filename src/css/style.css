@@ -45,7 +45,7 @@ main {
 }
 
 .list__item--dragged {
-  background-color: var(--color-background-light);
+  background-color: darkgoldenrod;
 }
 
 .list__compare-button {

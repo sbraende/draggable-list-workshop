@@ -1,5 +1,6 @@
 import stepsForSoftwareProjects from "./stepsData.js";
 import shuffleArray from "./shuffleArray.js";
+import handleDragAndDrop from "./dragAndDrop.js";
 
 const createListItems = () => {
   const list = document.querySelector(".list");
@@ -19,7 +20,7 @@ const createListItems = () => {
   compareButton.classList.add("list__compare-button");
 
   // compareButton.addEventListener("click", compareOrder)
-  // handleDragAndDrop();
+  handleDragAndDrop();
 };
 
 export default createListItems;
